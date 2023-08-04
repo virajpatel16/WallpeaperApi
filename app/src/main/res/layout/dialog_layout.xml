@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:src="@color/design_default_color_primary"
+        android:id="@+id/imgDialog"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDialog"
+        android:text="Set Wallpaper"
+        android:layout_gravity="center"
+        app:cornerRadius="20dp"
+        android:textAllCaps="false"
+        android:backgroundTint="#65B607"/>
+
+</LinearLayout>
